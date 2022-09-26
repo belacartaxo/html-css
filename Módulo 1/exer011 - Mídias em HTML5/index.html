@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferemtes oi aumente e dimunua o tamanho do seu navegador.</p>
+    <picture> <!--Não esquecer do picture, e a ordem das imagens é super importante para que ela funcione-->
+        <source media="(max-width: 750px)" srcset="imagens/fotoP.png" type="image/png"><!--source: media: type--> <!--Imagem menor - deve ser escrita acima da média-->
+        <source media="(max-width: 1050px)" srcset="imagens/fotoM.png" type="image/png"> <!--Imagem média - deve ser escrita em cima da base-->
+        <img src="imagens/fotoG.png" alt="Imagem flexível"> <!--Imagem maior - base, primeira a ser escrita-->
+    </picture>
+    
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+   <!-- <audio src="midia/happy-mistake.mp3" controls autoplay></audio>-->
+    <!--arquivos em MP3 WAV (muito pesado - evitar usar) OGG-->
+    <audio preload="metadata" autoplay controls>
+    <!--se você escrever loop dentro da primeira tag de <> o áudio vai começar de novo depois que acabar--> 
+    <!--Anotar sobre as 3 opcões de preload e para que serve cada uma-->
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        <source src="midia/happy-mistake.mp3" type="audio/wav">
+        <source src="midia/happy-mistake.ogg" type="audio/ogg">
+        <p>Infelizmente seu anvegador não consegue reproduzir áudio. <a href="midia/happy-mistake.mp3" download="happy_mistake.mp3" type="audio/mpeg">Clique aqui</a> para baixar o arquivo mp3</p>
+    </audio>
+</head>
+<body>
+    
+</body>
+</html>

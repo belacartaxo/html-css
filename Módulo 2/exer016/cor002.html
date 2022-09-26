@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+        * { /*Configurações globais das CSS*/
+            height: 100%;
+        }
+        body{ /*45deg corresponde a 45° então na parte dp top você pode colocar a angulação, ou cologar, to right, to left etc.*/
+            background-image: linear-gradient(to top, #ffc400, #e77400); /*Em vez de linear-gradient, você pode colocar radial-gradient, assim o degradê terá um formato cirscular, mas você precisará mudar o to top para circle*/
+            /*Se você colocar uma porcentagem após o código da cor você consegue delimitar a porcentagem da tela que essa cor irá ocupar*/
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando gradiente</h1>
+</body>
+</html>
