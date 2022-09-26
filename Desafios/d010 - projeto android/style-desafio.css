@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: idroid;
+    src: url(projeto/fontes/idroid.otf);
+}
+body{
+    font: 14px Arial, Helvetica, sans-serif;
+    background-color:#13678A;
+    margin: 0px;
+    text-align: justify;
+}
+header{
+    background-image: linear-gradient(#13678A, #012030);
+    color: white;
+    margin: 0px;
+    padding: 7px 4px 10px 15px;
+    box-shadow: 1px 1px 5px black;
+}
+main{
+    background-color: white;
+    margin: 0px 200px 0px 200px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 1px 1px 5px black;
+    padding: 15px 50px;
+}
+aside{
+    background-color: #13668a73;
+    border-radius: 5px 5px 5px 5px;
+    padding: 15px 15px 15px 15px;
+    margin: 30px 0px 15px 0px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.514);
+}
+#t2{
+    background-color: #13678A;
+    font: 15px bolder Arial, Helvetica, sans-serif;  
+    border-radius: 5px 5px 0px 0px;  
+    color: white;
+    margin: -15px;
+    padding: 10px;
+}
+footer{
+    background-color: #012030;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+    margin: 20px 0px 0px 0px;
+}
+h1{
+    font: 30px idroid, display;
+    color: #012030;
+    margin: 0px;
+}
+h2{
+    font: 20px idroid, display;
+    background-image: linear-gradient(to right, #13668a7e, white);
+    color: #012030;
+}
+p{
+    text-indent: 30px;
+}
+a{
+    color: rgba(255, 255, 255, 0.842);
+    text-decoration: none;
+    margin: 15px;
+    font: 13px;
+}
+.a:hover{
+    background-color: #13668a78;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+div.img{
+    text-align: center;
+}
+div#video{
+    text-align: center;
+    background-color: #13678A;
+    padding: 15px;
+    margin: 0px;
+}
+strong{
+    color: #14a3d3;
+}
+span.link{ /*aumentar tamanho do padding*/
+    background-color: #45c4b171;
+    color: black;
+}
+span.link:hover{
+    text-decoration: underline;
+}
+#titulo{
+    color: white;
+    text-align: center;
+    font: 40px 'Bebas Neue', cursive;
+    padding: 30px 0px 0px 0px;
+}
+#pinicial{ /*DAR MAIS ESPAÇO EM BAIXO E EM CIMA*/
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+div.coluna{
+    display: inline-block;
+    margin-right: 150px;
+}
+
