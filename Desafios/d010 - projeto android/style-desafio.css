@@ -55,6 +55,7 @@ nav > a:hover{
 main{
     background-color: white;
     margin: auto;
+    padding-top: 10px;
     border-radius: 0px 0px 5px 5px;
     box-shadow: 1px 1px 5px black;
     max-width: 800px;
@@ -121,7 +122,8 @@ p{
 img{
     display: block;
     margin: auto;
-    width: 88%;
+    max-width: 87%;
+    padding: 0px;
 }
 #pequena{
     display: block;
