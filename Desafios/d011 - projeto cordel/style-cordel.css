@@ -4,39 +4,50 @@
 :root{
     --font1: 'Passion One', cursive;
     --font2: 'Sriracha', cursive;
+    --font3: Verdana, Geneva, Tahoma, sans-serif;
 }
-*{
+* {
     margin: 0px;
     padding: 0px;
+}
+html, body{
+    min-height: 100vh;
 }
 header{
     background-color: black;
     color: white;
-    font: normal 40px var(--font1);
+    font: normal 5vw var(--font1);
     text-align: center;
     padding: 80px;
 }
-header > nav{
-    font-size: 0.6em;
-    font-family: Arial, Helvetica, sans-serif;
+header > h1 {
+    font-variant: small-caps;/*Todas as letras são maiúsculas mas as primeiras letras são maiores*/
+    /*text-transform: uppercase; - passa todas as letras para maiúsculas*/
 }
-main >section{
-    padding: 20px 40px;
-    font: 25px var(--font2);
+header > nav{
+    font: 0.6em var(--font3);
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font: 4vw var(--font2);
+    line-height: 1.5em;
+}
+section >p{
+    padding: 10px;
 }
 section.img{
     background: grey center center no-repeat fixed;
     background-size: cover;
-    padding: 50px 40px;
-    font: 25px var(--font2);
     color: white;
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.461);
     
 }
 section.img > p{
+    width: 50vw;
     background-color: rgba(0, 0, 0, 0.568);
     border-radius: 5px;
-    padding: 5px;
 }
 #img1{
     background-image: url("imagens/ladybug-3475779__480.webp");
@@ -44,18 +55,19 @@ section.img > p{
 #img2{
     background-image: url("imagens/antigos-cartoes-postais-de-cartas-escritas-a-mao-livro-aberto-e-ferramentas-vintage-fundo-de-papel-romantico-e-sentimental_.jpg");
 }
+
 footer{
     background-color: black;
     color: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    padding: 5px;
+    font: 13px var(--font3);
+    padding: 10px;
     margin-top: 30px;
 }
 a{
     text-decoration: none;
     color: white;
+    font-weight: bold;
 }
 a:hover{
     text-decoration: underline;
