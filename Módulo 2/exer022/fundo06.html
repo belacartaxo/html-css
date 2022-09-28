@@ -4,22 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testando Imagem de Fundo</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002\ \(1\).jpg');
             background-position: center center;
-            background-size: cover; /*melhor que contain ou alguma medida, porem depende doque você deseja*/
-            background-repeat: no-repeat;
+            background-size: cover; /*melhor que contain ou alguma medida, porem depende doque você deseja
+            background-attachment: fixed;*/
+
+            background: black url('imagens/wallpaper002\ \(1\).jpg') center center fixed;
+            /*Shorthand - background
+            color -> image -> position -> repeat -> *size* -> attachment*/
+            background-size: cover;
+            /*Apesar de na teoria a ordem ser essa quando colocamos o size a imagem não aparece, logo você deve colocar o size a parte*/
+            
         }
         main{
             background-color: white;
             border-radius: 10px;
             padding: 1px 10px;
             margin: auto;
-            width: 800px;
+            max-width: 700px;
         }
     </style>
 </head>
