@@ -31,7 +31,7 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
-    font: 4vw var(--font2);
+    font: 3.5vw var(--font2);
     line-height: 1.5em;
 }
 section >p{
@@ -45,12 +45,14 @@ section.img{
     
 }
 section.img > p{
-    width: 50vw;
+    display: inline-block; /*Transforma em uma caixa que se adapta ao tamanho do conteúdo*/
     background-color: rgba(0, 0, 0, 0.568);
     border-radius: 5px;
+    text-shadow: 1px 1px 1px black;
 }
 #img1{
     background-image: url("imagens/ladybug-3475779__480.webp");
+    background-position: right center;
 }
 #img2{
     background-image: url("imagens/antigos-cartoes-postais-de-cartas-escritas-a-mao-livro-aberto-e-ferramentas-vintage-fundo-de-papel-romantico-e-sentimental_.jpg");
