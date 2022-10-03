@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
     font-family: idroid;
-    src: url(projeto/fontes/idroid.otf);
+    src: url(fontes/idroid.otf);
 }
 body{
     font: 14px Arial, Helvetica, sans-serif;
