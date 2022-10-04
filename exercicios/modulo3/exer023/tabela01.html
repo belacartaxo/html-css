@@ -5,6 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela</title>
+    <style>
+        body{
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse; /*Junta as linhas da borda, por padrão elas ficam separadas (separate)*/
+            /*Se a configuração de borda for colocada no seletor table, a borda será apenas externa, não irá abranger as celulas*/
+            width: 400px;
+            height: 400px;
+        }
+        td{
+            border: 1px solid black;
+            background-color: lightgray;
+            text-align: center; /*alinhamento horizontal do conteúdo da cécula*/
+            vertical-align: middle; /*alinhamento vertical do conteúdo da cécula, padrão = middle, pode ser top ou bottom*/
+        }
+    </style>
 </head>
 <body>
     <h1>Minha primeira tabela</h1>
