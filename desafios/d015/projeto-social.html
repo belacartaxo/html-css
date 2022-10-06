@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Projetos Redes Sociais</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            height: 97vh;
+            background:  black url('imagens/fundo.jpg') center center no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        div img{
+            border-radius: 100%;
+            width: 50px;
+            display: table-column;
+            margin: 22px 10px;
+        }
+        div > a > img:hover{
+            border: 2px solid rgba(255, 255, 255, 0.616);
+            box-shadow: 2px 2px 5px black;
+            transition-duration: 0.5s;
+        }
+        div#icones{
+            background-color: rgba(145, 140, 140, 0.623);
+            display: inline-block;
+            border-radius: 10px;
+            margin: 20px;
+            width: 70px;
+            height: 450px;
+            position: relative;
+            left: 80%;
+        }
+        img#celular{
+            width: 250px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        iframe{
+            background-color: rgb(184, 28, 28);
+            height: 400px;
+            width: 190px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <img src="imagens/iphone.png" alt="Menu do iPhone" id="celular">
+    <iframe src="home.html" frameborder="0" name="frame" sandbox="sandbox" referrerpolicy="no-refferer">Seu dispositivo não suporta iframe</iframe>
+
+    <div id="icones">
+        <a href="home.html" target="frame"><img src="imagens/home1.jpg" alt="ícone home"></a>
+        <a href="https://www.youtube.com/user/cursosemvideo/playlists" target="frame"><img src="imagens/yt.png" alt="Ícone do YouTube"></a>
+        <a href="https://github.com/gustavoguanabara/" target="frame"><img src="imagens/github.png" alt="Ícone do GitHub"></a>
+        <a href="https://www.instagram.com/gustavoguanabara/" target="frame"><img src="imagens/insta.jpeg" alt="Ícone Instagram"></a>
+        <a href="https://twitter.com/guanabara/" target="frame"><img src="imagens/tt.png" alt=""></a>
+        <a href="https://www.facebook.com/gustavoguanabara/" target="frame"><img src="imagens/FACE.jpeg" alt="ícone Facebook"></a>
+    </div>
+</body>
+</html>
