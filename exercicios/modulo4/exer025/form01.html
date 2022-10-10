@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="off"> <!--action: diz pra onde os dados devem ir autocomplete off diz que não deve aparecer as barras de sugestão na hora de fazer um cadastro-->
+        <p><label for="inome">Nome</label> <input type="text" name="nome" id="inome"></p> <!--label é usado para dizer ao navegador que a caixa de imput com id name está relacionada ao "nome" que foi escrito dentro do label, logo é necessário colocar o id correspondente dentro do for de label-->
+        <p><label for="isobrenome">Sobrenome</label> <input type="text" name="sobrenome" id="isobrenome"></p> <!--input text, faz com que apareça a caixa para adicionar dados no formulário, é importante preencher tanto o campo do name, quanto o de id, o ideal é que o nome do id sempre venha com um i inicial, como: iname, isobrenome, iidade, isexo, para identificar que é um id, mas não é obrigatório-->
+        <input type="submit" value="Enviar"> <!--o input submit faz com que apareça o botão de enviar e o value, é o nome que você quer que apareça nesse botão-->
+    </form>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo" size="30" autocomplete="name">
+        </p>
+        <p>
+            <label for="imedia">Média</label>
+            <input type="number" name="media" id="imedia" required min="0" max="10" step="0.1" value="5">
+            <!--O type number só aceita números-->
+            <!--Para mínimo e máximo em relação a números o código a ser usado deve ser min e max-->
+            <!--Se você não colocar o parãmetrp step vai aparecer somente opções de números inteiros, se você colocar 0.5 o salto será de 0,5 e de 0.1 será de 0,1-->
+            <!--Value: determinar o valor que irá aparecer automáticamente-->
+        </p>
+        <p>
+            <label for="idia">Dia da prova</label>
+            <input type="date" name="dia" id="idia">
+            <!--Se você colocar o type date, irá parecer uma caixinha de calendário para selecionar o dia, mês e ano-->
+        </p>
+        <p>
+            <label for="ihora">Horário da prova</label>
+            <input type="time" name="hora" id="ihora">
+            <!--Se você colocar o type time, irá parecer opções de horários para você selecionar a hora e o minuto-->
+        </p>
+        <p>
+            <label for="imes">Período letivo</label>
+            <input type="month" name="mes" id="imes" value="2022-10"> <!--Vai aparecer automaticamente esse mês e ano-->
+            <!--Se você colocar o type month, irá parecer uma caixinha de calendáriopara selecionar o mês e o ano-->
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

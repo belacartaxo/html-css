@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de formulário</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iusu">Usuário</label>
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="15" placeholder="Nome do usuário">
+            <!--required, impede que os dados sejam enviados se eles não forem respondidos-->
+            <!--minlength e maxlength servem para determinar o número máximo e mínimo de caracteres-->
+            <!--Size - informa a quantidades de caracteres que vai aparecer na caixa-->
+            <!--placeholder - é um mini texto que você pode colocar na caixa de resposta que não vai interferir nos dados que o usuáio vai colocar-->
+        </p>
+        <p>
+            <label for="isen">Senha</label>
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="20">
+            <!--Utilizado para senhas pois os caracteres ficam ocultos-->
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar"> <!--Opcão para limpar as caixas com os dados-->
+        </p>
+    </form>
+</body>
+</html>
