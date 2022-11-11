@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div id="imagem">
+
+        </div>
+        <form action="#">
+            <section>
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <div id="email">
+                    <span id="icon-email" class="material-icons">perm_identity</span>
+                    <input type="email" name="email" id="iemail" required placeholder="seu e-mail">
+                </div>
+                <div id="senha">
+                    <span id="icon-senha" class="material-icons">vpn_key</span>
+                    <input type="password" name="senha" id="isenha" required placeholder="sua senha">
+                </div>
+                <div id="bts">
+                    <input type="submit" value="Entrar" id="entrar">
+                    <input type="button" value="Esqueci a senha" id="esq-senha">
+                </section>
+        </form>
+        </div>
+    </main>
+    
+    <script>
+        var email = document.getElementById('iemail')
+        email.addEventListener('click', clicou_em)
+        var senha = document.getElementById('isenha')
+        senha.addEventListener('click', clicou_sen)
+        var doc = document.getElementsByTagName('html')
+        doc.addEventListener('click', saida)
+
+        function clicou_em(){
+            email.style.backgroundColor = 'white'
+        }
+        function clicou_sen(){
+            senha.style.backgroundColor = 'white'
+        }
+        function saida(){
+            email.style.backgroundColor = 'rgb(169, 226, 218)'
+            senha.style.backgroundColor = 'rgb(169, 226, 218)'
+        }
+    </script>
+</body>
+</html>

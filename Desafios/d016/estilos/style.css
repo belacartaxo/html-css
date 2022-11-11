@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(98, 44, 132);
+    width: 97vw;
+    height: 100vh;
+    position: relative;
+}
+
+/*configurações área de login*/
+main{
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.54);
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    transition: 0.3s;
+}
+
+#imagem{
+    height: 200px;
+    background: white url(../imagem/fundo-d16.jpg) left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+section{
+    padding: 15px 10px;
+}
+
+section > h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-bottom: 12px;
+}
+
+section > p{
+    text-align: justify;
+    font-size: 12px;
+    line-height: 15px;
+    padding-bottom: 8px;
+}
+
+/*Configurações inputs*/
+#email{
+    background-color: rgb(98, 44, 132);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#iemail{
+    background-color: rgb(169, 226, 218);
+    padding: 8px;
+    margin: 3px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#icon-email{
+    color: white;
+    padding-left: 10px;
+}
+
+#senha{
+    background-color: rgb(98, 44, 132);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#isenha{
+    background-color: rgb(169, 226, 218);
+    padding: 8px;
+    border-radius: 5px;
+    margin: 3px;
+    border-style: none;
+    font-size: 14px;
+}
+
+#icon-senha{
+    color: white;
+    padding-left: 10px;
+}
+
+/*Configurando botões*/
+#bts{
+    display: flex;
+    flex-direction: column;
+}
+
+#entrar{
+    background-color: rgb(82, 178, 173);
+    border-style: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#entrar:hover{
+    background-color: rgb(37, 84, 82);
+}
+
+#esq-senha{
+    border: 1px solid rgb(54, 113, 110);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    color: rgb(47, 98, 95);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#esq-senha:hover{
+    background-color: rgb(76, 210, 196);
+}
