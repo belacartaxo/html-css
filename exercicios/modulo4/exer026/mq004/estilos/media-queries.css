@@ -2,6 +2,64 @@
 
 /*Outras mídias*/
 
-@media print{
-    
+@media print{/*impressoras*/
+    /*Não tem como imprimir o background na impressão, logo não precisa colocar*/
+    *{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 16px;
+    }
+    main{
+        border: 2px solid black;
+        width: 90%;
+    }
+    main::after{
+        content: 'Essa impressão foi feita no site www.curso em video.com';
+        text-decoration: overline;
+    }
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+    img#phone{
+        display: none;
+    }
+    img#print{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){ /*para tablets*/
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    img#phone{
+        display: none;
+    }
+    img#tablet{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1999px) {/*laptops*/
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    img#phone{
+        display: none;
+    }
+    img#pc{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1200px){/*aparelhos grandes*/
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    img#pc{
+        display: none;
+    }
+    img#tv{
+        display: block;
+    }
 }
