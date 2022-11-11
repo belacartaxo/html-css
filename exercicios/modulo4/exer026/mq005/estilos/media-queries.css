@@ -1,8 +1,18 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px){ /*para tablets*/
+    html{
+        width: 100vw;
+    }
+    span.material-symbols-outlined{
+        display: none;
+    }
     nav{
         background-color: rgb(149, 149, 157);
+        display: block;
+    }
+    nav li {
+        display: inline-block;
     }
     main{
         max-width: 750px;
@@ -11,8 +21,18 @@
 }
 
 @media screen and (min-width: 993px) and (max-width: 1999px){/*laptops*/
+    html{
+        width: 100vw;
+    }
+    span.material-symbols-outlined{
+        display: none;
+    }
     nav{
         background-color: rgb(149, 149, 157);
+        display: block;
+    }
+    nav li {
+        display: inline-block;
     }
     main{
         max-width: 750px;
@@ -21,8 +41,18 @@
 }
 
 @media screen and (min-width: 1200px){/*aparelhos grandes*/
+    html{
+        width: 100vw;
+    }
+    span.material-symbols-outlined{
+        display: none;
+    }
     nav{
         background-color: rgb(149, 149, 157);
+        display: block;
+    }
+    nav li{
+        display: inline-block;
     }
     main{
         max-width: 750px;
