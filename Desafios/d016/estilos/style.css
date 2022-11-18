@@ -55,6 +55,11 @@ section > p{
 }
 
 /*Configurações inputs*/
+div#email > input:focus-within{
+    background-color: white;
+    outline: none;
+}
+
 #email{
     background-color: rgb(98, 44, 132);
     border-radius: 5px;
@@ -75,7 +80,13 @@ section > p{
 
 #icon-email{
     color: white;
-    padding-left: 10px;
+    padding-left: 3px;
+    font-size: 2em;
+}
+
+div#senha > input:focus-within{
+    background-color: white;
+    outline: none;
 }
 
 #senha{
@@ -98,7 +109,10 @@ section > p{
 
 #icon-senha{
     color: white;
-    padding-left: 10px;
+    padding-left: 5px;
+    padding-right: 2px;
+    padding-top: 4px;
+    font-size: 1.8em;
 }
 
 /*Configurando botões*/
