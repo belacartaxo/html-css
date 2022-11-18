@@ -7,7 +7,7 @@
 
     main{
         display: flex;
-        width: 700px;
+        width: 90vw;
     }
 
     #imagem{
@@ -20,9 +20,13 @@
     #iemail, #isenha{
         width: 90%;
     }
+
+    p{
+        font-size: 1.2em;
+    }
 }
 
-@media screen and (min-width: 993px) and (max-width: 1999px){/*laptop*/
+@media screen and (min-width: 993px){/*laptop*/
     body{
         background: linear-gradient(rgb(98, 44, 132), rgb(71, 178, 163));
     }
@@ -30,7 +34,7 @@
     main{
         display: flex;
         flex-direction: row-reverse;
-        width: 900px;
+        width: 950px;
         max-width: 1200px;
         height: 300px;
     }
@@ -45,28 +49,8 @@
     #iemail, #isenha{
         width: 90%;
     }
-}
-
-@media screen and (min-width: 2000px){ /*telas grandes*/
-    body{
-        background: linear-gradient(rgb(98, 44, 132), rgb(71, 178, 163));
+    
+    p{
+        font-size: 1.2em;
     }
-
-    main{
-        display: flex;
-        flex-direction: row-reverse;
-        width: 900px;
-        height: 350px;
-    }
-
-    #imagem{
-        width: 600px;
-        height: 300px;
-        border-radius: 0px 20px 20px 0px;
-        background-position: left top;
-    }
-
-    #iemail, #isenha{
-        width: 90%;
-    } 
 }
