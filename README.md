@@ -1,14 +1,18 @@
-# HTMLeCSS
- Curso de HTML5 e CSS3 do estudonauta
+# HTML and CSS Course
 
- ## Módulo 1
- [Exercício 1] ()
- 
- ## Módulo 2
+This repository contains code and projects from the HTML and CSS course provided by [Estudonauta](https://www.estudonauta.com/). The course focuses on fundamental concepts of HTML and CSS, offering practical exercises to help you build and style web pages.
 
- ## Módulo 3
+## Installation and usage
+To get started with the code in this repository, follow these steps:
 
- ## Módulo 4
+1. Clone the repository to your local machine:
+   ```bash
+   https://github.com/belacartaxo/html-css.git
+2. Navigate to the project directory:
+   ```bash
+   cd html-css
+   ```
+3. Open the HTML files in your preferred web browser to view the projects.
 
- ## Desafios
- 
+## Author
+This repository is maintained by Your [Isabela Cartaxo](https://github.com/belacartaxo).
